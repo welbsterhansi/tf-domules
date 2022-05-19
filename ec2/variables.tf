@@ -1,6 +1,7 @@
 variable "redhat" {
   description = "set system operation redhat if is true"
   default = true
+  type = bool
 }
 variable "ubuntu" {
   description = "set system operation ubuntu if is true"
