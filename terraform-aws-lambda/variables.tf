@@ -14,3 +14,7 @@ variable "runtime" {
   type = string
   default = "nodejs14.x"
 }
+variable "lambda_envs" {
+    type = map(string)
+    default = {
+    }
