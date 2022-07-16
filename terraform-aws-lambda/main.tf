@@ -11,7 +11,6 @@ module "lambda_function" {
   
     variables = "${var.lambda_envs}"
   }
-}
 
   }
  
