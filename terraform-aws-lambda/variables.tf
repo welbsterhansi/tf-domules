@@ -18,3 +18,4 @@ variable "lambda_envs" {
     type = map(string)
     default = {
     }
+}
