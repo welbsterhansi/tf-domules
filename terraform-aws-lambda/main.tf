@@ -6,11 +6,7 @@ module "lambda_function" {
   runtime       = var.runtime
   create_package         = false
   local_existing_package = "./code.zip"
-
-  environment {
-  
-    variables = "${var.lambda_envs}"
-  }
+  environment_variables = var.lambda_envs
 
   }
  
