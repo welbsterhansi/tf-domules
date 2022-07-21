@@ -39,7 +39,7 @@ variable "production" {
   
 }
 variable "attach_policy_ec2" {
-  default = true
+  default = false
   type = bool
   
 }
